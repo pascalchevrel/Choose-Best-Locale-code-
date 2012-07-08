@@ -27,7 +27,7 @@ $site = array('es-ES', 'en-US', 'en-US', 'fr', 'ga-IE', 'ru');
  *
  */
 
-$locale = new ChooseLocale($site);
+$locale = new tinyL10n\ChooseLocale($site);
 
 /*
  * Set fallBack, here we want Russian. If the locale is not on the site,

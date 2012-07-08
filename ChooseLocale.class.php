@@ -5,8 +5,8 @@
  * Licence: MPL 2/GPL 2.0/LGPL 2.1
  * Author: Pascal Chevrel, Mozilla <pascal@mozilla.com>, Mozilla
  * Contributor: Stanislaw Malolepszy <stas@mozilla.com>, Mozilla
- * Date : 2011-03-31
- * version: 0.2
+ * Date : 2012-07-08
+ * version: 0.3
 
  * Description:
  * Class to choose the locale we will show to the visitor
@@ -14,6 +14,8 @@
  *
  *
 */
+
+namespace tinyL10n;
 
 class ChooseLocale
 {
