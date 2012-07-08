@@ -2,3 +2,4 @@
 
  Its main job is to return the best locale available on your site compared to what your visitors' browsers declare they accept.
 
+It needs PHP >=5.3
