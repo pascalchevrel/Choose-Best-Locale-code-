@@ -52,7 +52,7 @@ class ChooseLocale
         }
 
         foreach ($acclang as $var) {
-            $locale      = $this->_cleanHTTPlocaleCode($var);
+            $locale      = $this->cleanHTTPlocaleCode($var);
             $shortLocale = array_shift((explode('-', $locale)));
 
             if (in_array($locale, $this->supportedLocales)) {
@@ -102,7 +102,7 @@ class ChooseLocale
         return;
     }
 
-    private function _cleanHTTPlocaleCode($str)
+    private function cleanHTTPlocaleCode($str)
     {
         $locale = explode(';', $str);
         $locale = trim($locale[0]);
